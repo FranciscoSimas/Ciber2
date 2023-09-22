@@ -12,12 +12,31 @@ print("lista original:", lista)
 lista_mod = [0] * 9  # O tamanho da lista é conhecido (9 elementos)
 
 # Modifica a lista dividindo por 2 nos números >= 20
-pos = 0  # Contador para a posição atual
+casa = 0  # Contador para a posição atual
 
 for n in lista:
     if n >= 20:
-        lista_mod[pos] = n / 2
+        lista_mod[casa] = n / 2
     else:
-        lista_mod[pos] = n
-    pos += 1
+        lista_mod[casa] = n
+    casa += 1
 print("lista modificada:", lista_mod)
+
+
+# Outra forma
+novalista = []
+for numero in lista:
+    if numero >= 20:
+        novalista.append(numero/2)
+    else:
+        novalista.append(numero)
+print(f"Novalista = {novalista}")
+
+
+# Forma mais fácil de fazer
+print(lista)
+
+for x in range(len(lista)):
+    if lista[x] >= 20:
+        lista[x] = lista[x] / 2
+print(lista)
