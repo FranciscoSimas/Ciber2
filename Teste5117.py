@@ -17,7 +17,7 @@ def correr_exercicio_1():
     elif idade2 > idade1:
         print(f"{nome2} é mais velho(a) do que {nome1}")
     else:
-        print(f"{nome1} e {nome2} tem a mesma idade")
+        print(f"{nome1} e {nome2} têm a mesma idade")
 
 
 def correr_exercicio_2():
