@@ -1,4 +1,4 @@
-#While (dois ciclos)
+# While (dois ciclos)
 
 semanas = [1, 2, 3, 4]
 dias = ["Segunda", "Terça", "Quarta", "Quinta", "Sexta"]
